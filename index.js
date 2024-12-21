@@ -1,7 +1,7 @@
 const showData = new Promise((resolve, reject) => {
   try {
     setTimeout(() => {
-      resolve("hey");
+      resolv("hey");
     }, 2000);
   } catch (error) {
     reject(err);

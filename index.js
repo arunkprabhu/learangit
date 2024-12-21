@@ -1,8 +1,15 @@
-<html>
-  <head>
-    <title>helos</title>
-  </head>
-  <body>
-    <h2>hello</h2>
-  </body>
-</html>;
+const showData = new Promise((resolve, reject) => {
+  try {
+    setTimeout(() => {
+      resolve("hey");
+    }, 2000);
+  } catch (error) {
+    reject(err);
+  }
+});
+
+showData
+  .then((res) => console.log(res))
+  .catch((err) => {
+    console.log(err);
+  });

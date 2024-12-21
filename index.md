@@ -1,2 +1,1 @@
-hellos
-his
+this is gooods
